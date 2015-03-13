@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/g.css">
+<meta charset="utf-8">
+<title>文章阅读</title>
+</head>
+<body>
+<?php include("include.php");include_once("header.html");
+$maxId = maxRecord('article','id');
+$urlId = @$_GET['id'];
+if($urlId>$maxId){
+	$id = $maxId;
+}else if($urlId<1){
+	$id = 1;
+}else{
+	$id = $urlId;
+	if(selectOne("SELECT `id` FROM `hot` WHERE id='{$id}'")[0]){
+		//update('hot',array('value'=>(alue+1)),"id={$id}");
+		mysql_query(" update hot set value=value+1 where id={$id}");
+	}else{
+		insert('hot',array('id'=>$id,'value'=>1));
+	}
+}
+$sql = "SELECT * FROM article WHERE id={$id}";
+$articleData = selectOne($sql);
+//print_r($articleData);
+?>
+<div class="wrap">
+    <div class="ms_lf">
+        <div class="articleBody">
+				<h1 class="articleTitle"><?php echo $articleData['title']; ?></h1>
+					<div class="articleIntroduction">
+						<?php echo $articleData['introduction']?>
+					</div> 
+					<div><div><?php echo htmlspecialchars_decode($articleData['content'])?></div>
+        </div>
+		<div class="ArticleCom">
+    	<textarea placeholder="评论内容" id="articleText" role="5"></textarea>
+        <button></button>
+		</div>
+	</div>
+</div>
+<div class="ms_rt">
+			<p class="RecommendP readArticleHot">最多人阅读</p>
+		<ul class="hotArticle">
+<?php
+$hot = selectOne("SELECT `title` FROM 'article' limit 0,10");
+print_r($hot);
+?>			
+			<li><a></a></li>
+<?php
+?>	
+		</ul>
+		</div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="css/g.css"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　>　
+<link type="text/css" rel="stylesheet" href="css/all.css">
+</head>
+<style>
+	.headerWrap{
+		height:140px;
+		width:100%;
+	}
+</style>
+<body>
+<div class="headerWrap">
+<div class="header">
+    	<a class="indexlogo"><img src="img/logo.gif"></a>
+        <ul class="menu">
+        	<li><a href="index.php">首页</a></li>
+            <li><a href="reserve.php">咨询预约</a></li>
+        </ul>
+        
+        <div class="sreach">
+        	<form action="#" name="search" id="search">
+            	<input name="text" type="text" id="text">
+                <input name="sub" type="submit" id="sub" class="but"> 
+            </form> 
+        </div>
+</div>
+</div>
+</body>
+</html>

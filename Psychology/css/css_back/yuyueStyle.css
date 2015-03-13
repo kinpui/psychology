@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+/*resever style*/
+
+	/*等候列*/
+	.wait{
+		margin-left:10px;
+		margin-top:5px;
+	}
+	
+	
+	/*预约人数*/
+	.number{
+		color:#06F;
+		font-size:14px;
+	}
+	/*用户信息*/
+	.reserveUser{
+		color:#999;
+		font-size:14px;
+		height:30px;
+	}
+	
+	/*#submit{
+		width:250px;
+		height:80px;
+		border:0px;
+		font-size:34px;
+		
+	}*/
+	.listBody td{
+		padding:0;
+	}
+	.reserveTable #listBody input[type=button]{
+		background: linear-gradient(to bottom, #9bc747 0%, #82bd42 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+		border: 0 none;
+		-moz-display:block;
+		height: 100%;
+		padding: 20px;
+		width: 100%;
+		cursor:pointer;
+	}
+	.reserveTable #listBody input[type=button]:hover{
+		background: linear-gradient(to bottom, #82bd42 0%, #9bc747 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+	.reserveTable #listBody #failure{
+		background:#CCC;
+		cursor:auto;
+	}
+	.reserveTable #listBody tr:hover{
+		background:#FFF;
+	}
+	.reserveTable #listBody td{
+		cursor:pointer;
+	}
+	/*do 是预约未满的样式*/
+	.reserveTable #do:hover{
+		background:linear-gradient(to bottom, #9bc747 0%, #82bd42 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+	
+	/*预约成功的提示*/
+	.reserveOk{
+		display:none;
+		margin-top: 20px;
+		color: #ff6000;
+		text-align: center;
+	}
