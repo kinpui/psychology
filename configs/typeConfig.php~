@@ -1,0 +1,5 @@
+<?php
+$typeArray = new array(
+	'xlzt','xlcs','xlbk','video','blxd','xlwd','zyx','game'
+);
+?>

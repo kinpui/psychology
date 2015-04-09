@@ -1,0 +1,322 @@
+
+@charset "utf-8";
+/* CSS Document */
+/*后台首页样式*/
+/*用户功能页公共属性*/
+.userInfwrap,.msgBoardWrap,.yueyulist,.publishWrap,.onDuty{
+	margin-left:20px;
+	width:900px;
+}
+.A{
+		background: none repeat scroll 0 0 #d9d9d9;
+}
+/*字体icon*/
+.yueyulist td span,.userInfwrap .userList td ul li p,.add{
+	font-family:"entypo";
+	font-size:36px;
+	cursor:pointer;
+}
+/**********************************************************/	
+
+header.main {
+    background: linear-gradient(to bottom, #208ed3 0%, #0272bd 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #5daced;
+    box-sizing: border-box;
+    height: 60px;
+    overflow:hidden;
+    padding:15px 25px;
+    position:relative;
+    top:0;
+    width:100%;
+    z-index:1000;
+	color:#FFF;
+}
+.headerTitle{
+	font-size:28px;
+}
+.headerImg{
+	width:40px;
+	height:40px;
+	border-radius:20px;
+	-moz-border-radius:20px;
+	-o-border-radius:20px;
+	-ms-border-radius:20px;
+	-webkit-border-radius:20px;
+	margin-top:5px;
+	margin-left:20px;
+	
+}
+.welcome{
+	display:block;
+	margin-left:65px;
+	margin-top:-35px;
+	color:#FFF;
+	font-size:18px;
+}
+
+/*菜单背景样式*/
+.menuBg{
+	background: linear-gradient(to bottom, #9bc747 0%, #82bd42 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.user{
+	height:50px;
+}
+/*搜索框美化*/
+.sreach{
+	float:right;
+	margin-top:-30px;
+}
+#text{
+	height:25px;
+	width:250px;
+	border:1px solid #ccc;
+	border-radius:15px 0 0 15px;
+	padding-left:15px;
+}
+#sub{
+		float:right;
+		width:70px;
+		height:27px;
+		cursor:pointer;
+		border-radius:0 15px 15px 0;
+		border:0px;
+		background: linear-gradient(to bottom, #0C3 0%, #82bd42 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+
+/*提醒按钮*/	
+.buttons{
+	float:right;
+	margin-top:-38px;
+	margin-left:12px;
+	width:400px;
+	height:50px;
+}
+
+.button li{
+	list-style:none;
+	float:left;
+	width:70px;
+	height:40px;
+	/*background: linear-gradient(to bottom, #4b4f51 0%, #414547 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+   */
+    background:linear-gradient(to bottom,#85bf50 0%, #9bcf47 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset;
+	margin:7px 30px 0 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius:8px;
+	cursor:pointer;
+	color:#fff;
+}
+.button li:hover{
+	background:linear-gradient(to bottom,#9bcf47 0%, #85bf50 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.menu{
+	position:absolute;
+}
+.menuLeft{
+	background: linear-gradient(to left, #9bc747 0%, #82bd42 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 100%;
+	box-shadow: -20px 0 10px -20px #000 inset;
+}
+
+.menuLeft li{
+	background: linear-gradient(to left, #9bc747 0%, #82bd42 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #999;
+    box-shadow: -20px 0 10px -20px #000 inset;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    height: 90px;
+    line-height: 55px;
+    list-style: none outside none;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    width: 200px;
+}
+.menuLeft li:hover{
+	background:linear-gradient(to left, #82bd42 0%, #9bc747 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	box-shadow:-20px 0 0px -10px #fff inset;
+}
+/*提醒气泡*/
+.pip{
+	background: none repeat scroll 0 0 #c33;
+    border-radius: 10px;
+    font-size: 14px;
+    height: 20px;
+    line-height: 18px;
+    margin: -45px 0 0 60px;
+    width: 20px;
+}
+/*框架样式*/
+.iframe{
+	float:left;
+	width:100%;
+	height:100%;
+}
+#connent{/*内容区*/
+	border: 0 none;
+    float: left;
+    margin-left: 200px;
+    width: 900px;
+	height: 100%;
+}
+span.icon{
+	color: white;
+    display: block;
+    font-family: entypo;
+    font-size: 60px;
+    height: 20px;
+    line-height: 70px;
+	text-align: center;
+    width: 70px;
+}
+/*******************发布文章页*******************/
+.publishWrap{
+	margin:25px auto;
+}
+.publishWrap input,.publishWrap select{
+	background: none repeat scroll 0 0 #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #606060;
+    font-family: Arial;
+    font-size: 12px;
+    margin: 0 0 15px;
+    padding: 10px;
+		width:100%;
+}
+.publishHeaderP{
+	width:100%;
+	height:100px;
+	background:none repeat scroll 0 0 #0593d3;
+	width:100%;
+	color:#ffffff;
+	font-size:40px;
+	line-height:140px;
+	text-align:center;
+}
+#container{
+	width:800px;
+}
+/*************************************************************/
+/***************预约用户类别样式*******************/
+.userList{
+	padding-top:10px;
+}
+/*列表body样式*/
+.listBody{
+	text-align:center;
+	font-size:18px;
+}
+
+/*文章管理*/
+.userInfTd{
+	height: 60px;
+	line-height: 60px;
+	margin: 0 auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 300px;
+}
+
+
+.listBody a{
+	font-family: "entypo";
+	font-size: 45px;
+	color:#999;
+	/*
+	height: 30px;
+	line-height: 10px;
+	margin-left: 55px;
+	width: 30px;
+	*/
+}
+.yueyulist td span{
+	font-size: 53px;
+}
+/*************************************************************/
+/*用户留言页*/
+.connent{
+	margin-left:23px;
+	border-left:#CCC 1px solid;
+}
+.conUl{
+	margin-top:20px;
+}
+.conUl li{
+	list-style:none;
+	margin:30px 0 0 -23px;
+}
+.conUl img{/*用户头像*/
+	width:46px;
+	height:46px;
+	border-radius:23px;
+}
+.conUl div{
+	border: 1px dashed #82bd42;
+    border-radius:20px;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 70px;
+    
+    width: 80%;
+	cursor:pointer;
+}
+.conUl p{
+	border-radius:20px 20px 0 0;
+	padding: 15px;
+	border-bottom: 1px dashed #82bd42;
+	background:linear-gradient(to bottom, #9bc747 0%, #82bd42 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.conUl textarea{
+	background: none repeat scroll 0 0 #fff;
+    border: 1px solid #e3e3e3;
+    box-sizing: border-box;
+    color: #606060;
+    font-family: Arial;
+    font-size: 14px;
+    height: 40px;
+    margin: 6px 6px 6px 15px;
+
+    width: 80%;
+}
+.but{
+	border: 0 none;
+    border-radius: 40px;
+    display: block;
+    float: right;
+    height: 40px;
+    margin: 5px 20px 0 0;
+    width: 10%;
+}
+.conUl span{
+	font-family: "entypo";
+    font-size: 59px;
+    line-height: 0;
+	color:#0C9;
+}
+h6{
+	color: #658888;
+    float: right;
+	margin: 25px 165px 0 0;
+}
+/*************************************************************/
+/*************用户列表页****************/
+.add{
+	color: #ccc;
+    float: left;
+    font-size: 60px;
+    margin: -80px 0 0 92px;
+    width: 50px;
+}
+/*************************************************************/
+/*************值日安排页****************/
+.onDutyTable td input{
+	border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}

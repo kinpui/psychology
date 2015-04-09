@@ -1,0 +1,769 @@
+@charset "utf-8";
+/* CSS Document */
+/*ALL Style*/
+
+/*index && header*/
+/* CSS Document */
+/*index 的CSS样式文件*/
+.headerWarp{
+		background:none repeat scroll 0 0 rgb(252, 157, 154);
+    height: 140px;
+    margin-top: -20px;
+    opacity: 0.95;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.header{
+	width:1024px;
+	height:130px;
+	margin-bottom:10px;
+	margin:0 auto;
+}
+/*文字多出隐藏*/
+.picBoxRt p a,.baike ul li p,.xl_tt,.hotArticle li a,.ReContent p{
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+/*图标*/
+
+.header .indexlogo{
+	float:left;
+	width:300px;
+	height:80px;
+	margin-top:30px;
+}
+
+.header .menu li{
+	float:left;
+	font-size:20px;
+	list-style:none;
+	color:#39F;
+	cursor:pointer;
+	padding:45px 0px 0px 50px;
+	line-height:55px;
+	/*margin-left:3px;
+	*/
+	transition:all 0.5;
+	-moz-transition:all 0.5;
+	-webkit-transition:all 0.5;
+	-o-transition:all 0.5;
+}
+.header .menu li:hover{
+	color:#0C6;
+}
+
+#headerMenu{
+	position:relative;
+	height: 35px;
+	margin: 105px 0 0 -163px;
+	position: absolute;
+	width: 100%;
+}
+#headerMenu li{
+	float:left;
+  line-height: 35px;
+  text-align: center;
+  width: 20%;
+	cursor:pointer;
+	font-size:14px;
+	color:#FFF;
+}
+
+.sreach {
+	float: right;
+	height: 40px;
+	margin-top: 55px;
+	width: 300px;
+
+}
+
+.indexMessage{
+	width:100%;
+	float:left;
+}
+
+.ms_lf{
+	margin-top:5px;
+	float:left;
+	width:700px;
+	background:#FFF;
+	padding:20px;
+}
+
+.ms_rt{
+	float:right;
+/*	width:300px;*/
+	width:270px;
+}
+
+.pic_box{
+	width:100%;
+	height:400px;
+	overflow:hidden;
+}
+.picBoxLf,.picBoxRt{
+	height:100%;
+	cursor:pointer;
+}
+.picInt{
+	float:right;
+	background:#f8f8f9;
+	width:150px;
+}
+.picBoxRt p span{
+	color: #069;
+    display:none;
+    font-size: 12px;
+    height: 35px;
+    margin-left: 5px;
+    overflow: hidden;
+    width: 90%;
+}
+.showImg{
+	width:100%;
+	height:600px;
+	background:#069;
+	overflow:hidden;
+}
+.pHover{
+	color:#888 !important;
+	//color:rgb(200,200,169);
+}
+
+/*******img*******/
+.baike{
+	width:100%;
+	height:400px;
+	background:#F8F8F9;
+}
+
+.baike li p{
+	margin-left:5px;
+}
+
+/*整合所有width  和 margin-top*/
+.zxfc, .xlyy,.blxd, .xlzt, .xlcs{
+	width:100%;
+	color:#F00;
+	margin-top:30px;
+}
+
+.xlzt{
+	height:300px;
+}
+
+.xlcs{
+	height:250px;
+}
+
+.blxd{
+	height:250px;
+}
+
+.blxd img{
+	 height: 200px;
+	margin-top: 10px;
+	width: 300px;
+}
+
+.blxd_a{
+	display:block;
+	width:100%;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+
+
+
+.xlyy{
+	height:230px;
+}
+
+.xlyy ul li{
+	float:left;
+	width:30%;
+	height:230px;
+	margin-left:17px;
+	list-style:none;
+}
+
+/*心理应用标题*/
+.xlyy_tt{
+	color:#369;
+}
+
+.xlyy_img{
+	margin-top:10px;
+}
+
+
+.zxfc{
+	height:230px;
+}
+
+.zxfc ul li {
+	list-style:none;	
+}
+
+.zxfc_img{
+	width:300px;
+	height:170px;
+	overflow:hidden;
+}
+
+
+.title{
+	font-size:14px;
+	color:#ff6000;
+	/*
+	text-shadow: 1px 0px 1px #0CC;
+	*/
+	border-top: dotted 1px #CCC;
+}
+
+.baike ul li{
+	list-style:none;
+	overflow:hidden;
+}
+.baike ul li p{
+	width:90%;
+	height:32px;
+	
+	line-height:32px;
+	margin-top:5px;
+}
+.baike ul li a{
+	color:#999;
+}
+
+
+.more{
+	float:right;
+	
+}
+.more a{
+	color:#999;
+	text-shadow:none;
+	font-size:14px;
+}
+
+.baike ul li a:hover,.more a:hover{
+	color:#06F;
+}
+
+.xlcs ul li{
+	margin-top:25px;
+	margin-left:25px;
+	float:left;
+	list-style:none;
+}
+
+.xlcs img{
+	width:200px;
+	height:150px;
+}
+
+.xlcs_t{
+	
+	width:200px;
+	
+}
+
+/*  心理应用   心理测试 等a链接的文件样式*/
+.xl_tt{
+	display:block;
+	color:#369;
+	margin-top:160px;
+}
+
+.xlzt li{
+	margin-top:20px;
+	list-style:none;
+	width:100%;
+	height:50px;
+	transition:all ease-in-out;
+}
+
+.xlzt_title,.xlzt_ct{
+	float: left;
+    margin-left: 60px;
+    margin-top: -45px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 240px;}
+
+.xlzt_title{
+	color:#369;
+}
+.xlztText{
+	width:50px;
+	height:50px;
+	background:#0CF;
+	margin-top:20px;
+	border-radius:25px;
+}
+.xlztText font{
+	color:#FFF;
+	font-size:30px;
+	margin-left:10px;
+	float:left;
+}
+.xlzt_ct{
+    color: #888;
+    font-size: 12px;
+    margin-top: -22px;
+}
+/*搜索框美化*/
+#text{
+	float:left;
+	width:75%;
+	height:40px;
+	border:1px solid #ccc;
+	border-radius:15px 0 0 15px;
+}
+
+#sub{
+	float:left;
+	width:70px;
+	height:42px;
+	cursor:pointer;
+	border-radius:0 15px 15px 0;
+	border:1px solid #ccc;
+}
+
+.img_an{
+	cursor:pointer;
+	position:absolute;
+	text-align:center;
+	
+	transition:all 0.4s;
+	-o-transition:all 0.4s;
+	-moz-transition:all 0.4s;
+	-webkit-transition:all 0.4s;
+	-ms-transition:all 0.4s;
+}
+
+.img_an:hover{/*图片鼠标经过缩放动画*/
+	
+	transform:scale(0.85,0.85);
+	-o-transform:scale(0.85,0.85);
+	-moz-transform:scale(0.85,0.85);
+	-webkit-transform:scale(0.85,0.85);
+	-ms-transform:scale(0.85,0.85);
+}
+
+/*心理百科中的动画效果*/
+.baike_li{
+	transition:all 0.5s;
+	-o-transition:all 0.5s;
+	-moz-transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+	-ms-transition:all 0.5s;
+}
+
+.baike_li:hover{
+	margin-left:10px;
+}
+
+.pic_right,.pic_left{
+	width:50px;
+	height:50px;
+	background:url(img/mao80.png);	
+	position:relative;
+	cursor:pointer;
+	border-radius:25px;		
+	transition:all 0.8s;
+}
+
+.pic_left:hover,.pic_right:hover{
+	background:#09F;
+}
+
+#img_run li{
+	list-style:none;
+	float:left;
+	
+}
+
+.pic_left{
+	margin-top:-225px;
+	margin-left:10px;
+}
+
+.pic_right{
+	float:right;
+	margin-right:10px;
+	margin-top:-50px;
+}
+
+/*reserve style*/
+	/*等候列*/
+.wait{
+	margin-left:10px;
+	margin-top:5px;
+}
+
+
+/*预约人数*/
+.number{
+	color:#06F;
+	font-size:14px;
+}
+/*用户信息*/
+.reserveUser{
+	color:#999;
+	font-size:14px;
+	height:30px;
+}
+
+/*#submit{
+	width:250px;
+	height:80px;
+	border:0px;
+	font-size:34px;
+	
+}*/
+.listBody td{
+	padding:0;
+}
+.reserveTable #listBody input[type=button]{
+	background: linear-gradient(to bottom, #9bc747 0%, #82bd42 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border: 0 none;
+	-moz-display:block;
+	height: 100%;
+	padding: 20px;
+	width: 100%;
+	cursor:pointer;
+}
+.reserveTable #listBody input[type=button]:hover{
+	background: linear-gradient(to bottom, #82bd42 0%, #9bc747 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.reserveTable #listBody #failure{
+	background:#CCC;
+	cursor:auto;
+}
+.reserveTable #listBody tr:hover{
+	background:#FFF;
+}
+.reserveTable #listBody td{
+	cursor:pointer;
+}
+/*do 是预约未满的样式*/
+.reserveTable #do:hover{
+	background:linear-gradient(to bottom, #9bc747 0%, #82bd42 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+/*预约成功的提示*/
+.reserveOk{
+	display:none;
+	margin-top: 20px;
+	color: #ff6000;
+	text-align: center;
+}
+
+/*readArticle*/
+/*文章正文部分*/
+.articleBody{
+	font-size: 14px;
+	line-height: 30px;
+	padding: 10px;
+}
+
+/*more style*/
+.Recommend{
+height:180px;
+padding: 10px;
+border-bottom:1px #ccc dotted;
+}
+.RecommendP{
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	border-bottom: dotted 1px #999999;
+}
+.RecommendP span{
+	color:red;
+}
+.topHeight{
+	margin-top:10px;
+}
+.hotArticle li{
+	width:100%;
+}
+.hotArticle li p{
+	height:30px;
+	margin-top:10px;
+}
+
+.hotArticle li p span{
+	color:#CCC;
+	line-height:15px;
+}
+font{
+	color:#ccc;
+	font-size:12px;
+	display:block;
+	margin-top:6px;
+	float:right;
+}
+.hotArticle li a{
+	display:block;
+	float:left;
+	width:75%;
+	font-size:14px;
+}
+
+/*数据加载样式*/
+.loadingMore{
+	margin-top: 20px;
+	background: url("../img/loading.gif") repeat scroll center center rgba(0, 0, 0, 0);
+	height: 10px;
+	width: 100%;
+	opacity:0;
+
+	transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	-ms-transition:all 0.5s ease;
+	-webkit-transition:all 0.5s ease;
+}
+
+
+/*推荐文章中li样式*/
+.ReContent{
+	float:left;
+	list-style:none;
+	margin: 10px 13.3px 0;
+}
+.ReContent img{
+	width:200px;
+	height:120px;
+}
+.ReContent p{
+	width:200px;
+	height:30px;
+}
+.hotArticle li p span{
+	font-family: "entypo";
+  font-size: 43px;
+  line-height: 3px;
+  margin-left: 8px;
+}
+.ms_rt{
+	padding:5px;
+}
+/*更多文章中的li样式*/
+.moreUl li{
+	list-style:none;
+	margin-top:40px;
+}
+.moreUl img{
+	width:180px;
+	height:120px;
+	float:left;
+}
+.moreUl a{
+	font-size:14px;
+	font-weight:bold;
+	margin-left:20px;
+}
+.moreUl p{
+	font-size: 12px;
+	margin: 8px 18px 0 200px;
+	color: #999999;
+}
+#RecommendL{/*文章简介*/
+	height: 70px;
+	margin: 5px 0 0 200px;
+	overflow: hidden;
+	color:#666;
+	line-height:25px;
+}
+/*点*/
+#dot{
+	margin: 20px 0 -10px;
+	padding:0;
+	width: 700px;
+	overflow: hidden;
+}
+
+/*login style*/
+
+.logo{
+	width:300px;
+	height:250px;
+	position:fixed;
+	top:0px; bottom:0px;left:0px;right:10px;
+	margin:auto;
+}
+#logoText{
+	color:#FFF;
+	font-size:36px;
+}
+
+.logo #form p{
+	margin-top:25px;
+}
+.logo #form p input{
+	width:250px;
+	height:40px;
+	border:0px;
+	font-size:19px;
+	background:url(../img/mao60.png);
+	/*border-radius:20px;*/
+	border-radius:25px;
+	padding:5px 50px 5px 10px;
+}
+
+.logo #form p input[type="submit"]{
+	width:310px;
+	height:50px;
+	padding:0;
+}
+
+.logo #sub{
+	cursor:pointer;
+	width:310px;
+	height:50px;
+	border:0px;
+	border-radius:25px;
+	font-family:"entypo";
+	font-size:35px;
+	color:#999;
+	font-weight:bold;
+}
+.logo #sub:hover{
+	background:#0CF;
+}
+.logo .lg_icov{
+	float:right;
+	margin-top:-40px;
+	index-z:9;
+}
+/*文章阅读*/
+.articleBody p{
+	text-indent:2em;
+}
+.article_ms_lf{
+	width:80% !important;
+	position:absolute;
+}
+.ArticleCom{
+	margin:20px 0 65px 0;
+}
+.ArticleCom span{
+	color:#FFF;
+	cursor:pointer;
+	display:inline-block;
+	float:left;
+	height:100%;
+	text-align:center;
+	width:50%;
+}
+
+.ArticleCom span.com{
+	background:pink;
+}
+
+.ArticleCom span.like{
+	background:#66cccc;
+}
+.RecommendArticle li{
+	display:block;
+	float:left;
+	margin-left:10px;
+	width:200px;
+	height:200px;
+}
+
+.RecommendArticle li p{
+	text-indent:0 !important;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.RecommendArticle li img{
+	width:200px;
+	height:140px;
+}
+.RecommendArticleP{
+
+}
+#articleText{
+	float:left;
+	width:700px;
+	padding:10px;
+	font-size: 12px;
+	color:#606060;
+	border:1px solid #e3e3e3;
+	background: #fff;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.articleTitle{
+	color:#369;
+	line-height:90px;
+	overflow:hidden;
+	text-align:center;
+}
+.articleIntroduction{
+	border: 1px double #ccc;
+	border-radius: 5px;
+	color: #999;
+	padding: 20px;
+	margin-bottom:15px;
+}
+.readArticleHot{
+	margin-top:72px;
+}
+/*点亮心灯和心理环境*/
+.read{
+	width:100%;
+	height:170px;
+	margin-top:30px; 
+	text-align:center;
+	cursor: pointer;
+}
+.read p{
+	font-size:200px;
+	float:left;
+	width:150px;
+	height:130px;
+	font-family:"entypo";
+	line-height:30px;
+}
+.read p span{
+	float: left;
+	font-family: "Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu;
+	font-size: 16px;
+	margin-left: 45px;
+}
+/*拨亮心灯，心理室*/
+#blxdicon,#xlsicon{
+	transition:color .5s ease-in-out;
+	-webkit-transition:color .5s ease-in-out;
+	-ms-transition:color .5s ease-in-out;
+	-o-transition:color .5s ease-in-out;
+	-moz-transition:color .5s ease-in-out;
+}
+#blxdicon{
+	color:rgb(252,157,154);
+}
+#blxdicon:hover{
+	color:rgb(254,67,101);
+}
+#xlsicon{
+	color:rgb(200,200,169);
+}
+#xlsicon:hover{
+color:rgb(131,175,155);
+}
+
