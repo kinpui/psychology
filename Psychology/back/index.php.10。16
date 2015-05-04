@@ -1,0 +1,287 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Page-Enter" content="revealTrans(Duration=1.0,Transition=2)"> 
+<meta http-equiv="Page-Enter" content="revealTrans(Duration=1.0,Transition=0)"> 
+<title>关注心理健康 | 心理学</title>
+</head>
+<body>
+<div style="width:100%; height:20px;"></div>
+<div class="wrap">
+    <?php
+    	include_once("header.html");
+	?>
+   
+	<div class="indexMessage">
+    	<!--右边部分-->
+       	<div class="ms_lf">
+        	<div class="pic_box">
+            	
+            </div>
+            
+          <div class="xlzt">
+            <!-- 拔亮心灯 栏目-->
+            	<p class="title">心理专题<span class="more"><a href="#">more&nbsp;>></a></span></p>
+                <ul>
+               	  	<li>
+                    	<div class="xlzt_img_box">
+	                		<ul class="xlztImgBox">
+                            	<li>
+                                	<img class="xlzt_img" src="./img/xlzt/xlzt.jpg">
+                                </li>
+                            	<li>
+                                	<img class="xlzt_img" src="./img/xlzt/xlzt1.jpg">
+                                </li>
+                                <li>
+                                	<img class="xlzt_img" src="./img/xlzt/xlzt2.jpg">
+                                </li>
+                                <li>
+                                	<img class="xlzt_img" src="./img/xlzt/xlzt3.jpg">
+                                </li>
+                                <li>
+                                	<img class="xlzt_img" src="./img/xlzt/xlzt1.jpg">
+                                </li>
+                                <li>
+                                	<img class="xlzt_img" src="./img/xlzt/xlzt2.jpg">
+                                </li>
+                    	</div>
+                        <div class="xlzt_aDiv">
+                            <ul class="xlzt_a">
+                                <li><a href="#">我比谁都相信努力奋斗的意义我比谁都相信努力奋斗的意义我比谁都相信努力奋斗的意义</a></li>
+                                <li><a href="#">我比谁努力奋斗的意义</a></li>
+                                <li><a href="#">我比谁努力奋斗的意义</a></li>
+                                <li><a href="#">我比谁努力奋斗的意义</a></li>
+                                <li><a href="#">我比谁努力奋斗的意义</a></li>
+                                <li><a href="#">我比谁努力奋斗的意义</a></li>
+                                <li><a href="#">我比谁努力奋斗的意义</a></li>
+                            </ul>
+						</div>
+                        <div class="xlzt_pDiv">
+                        	<ul class="xlzt_longp">
+                            	<li><!--编辑时对p标签内的文字进行限制-->
+                            		<p class="xlzt_p">我比谁都相信努力奋斗的意义，是因为人生来就不平等，世界就是如此残酷。但这不代表挣扎和改变没有意义，因为它是从狭隘的生活中跳出、从荒芜的环境中离开的一条最行我比谁都相信s之有效的路径。 </p>
+                            	</li>
+                                <li>
+                            		<p class="xlzt_p">我比谁都相信努力奋斗的但这不代表挣扎和改变没有意义，因为它是从狭隘的生活中跳出、从荒芜的环境中离开的一条最行之有效的路径。 </p>
+                            	</li>
+                                <li>
+                            		<p class="xlzt_p">我比谁都相信努力奋斗的意义，是因为人生来就不平等，世界就是如此残酷。但这不代表挣扎和改变没有意义，因为它是从狭隘的生活中跳出、从荒芜的环境中离开的一条最行之有效的路径。 </p>
+                            	</li>
+                                <li>
+                            		<p class="xlzt_p">如此残酷。但这不代表挣扎和改变没有意义，因为它是从狭隘的生活中跳出、从荒芜的环境中离开的一条最行之有效的路径。 </p>
+                            	</li>
+                                <li>
+                            		<p class="xlzt_p">我比谁都相信努力奋斗的意义，是因为人生来就不平等，世界就是如此残酷。但这不代表挣扎和改变没有意义，因为它是从狭隘的生活中跳出、从荒芜的环境中离开的一条最行之有效的路径。我比谁都相信努力奋斗的意义，是因为人生来就不平等，世界就是如此残酷。但这不代表挣扎和改变没有意义，因为它是从狭隘的生活中跳出、从荒芜的环境中离开的一条最行之有效的路</p>
+                            	</li>
+                                <li>
+                            		<p class="xlzt_p">我比谁都相信努力奋斗的意义，是因为人生来就不平等，世界就是如此残酷。但这不代表挣扎和改变没有意义，因为它是从狭隘的生活中跳出、从荒芜的环境中离开的一条最行之有效的路径。 </p>
+                            	</li>
+                            </ul>    
+                         </div>
+                            <p class="dot" onClick="run()">
+                                <span title="1"></span>
+                                <span title="2"></span>
+                                <span title="3"></span>
+                                <span title="4"></span>
+                                <span title="5"></span>
+                                <span title="6"></span>
+                            </p>
+            		</li>
+                </ul>
+          </div>
+            
+          <div class="xlcs">
+            <!--心理测试-->
+            	<p class="title">心理测试<span class="more"><a href="#">more&nbsp;>></a></span></p>
+                <ul>
+                	<li>
+                    	<img class="img_an" src="img/xlcs.jpg" >
+                        <a href="#" title="九型人格测试" class="xl_tt xlcs_t">九型人格测试</a>
+                    </li>
+                	<li>
+                    	<img class="img_an" src="img/xlcs1.jpg" >
+                        <a href="#" title="儿童注意力缺陷多动障碍（多动症）他评量表" class="xl_tt xlcs_t">儿童注意力缺陷多动障碍（多动症）他评量表</a>
+                    </li>
+                	<li>
+                    	<img class="img_an" src="img/xlcs2.jpg" >
+                        <a href="#" title="测你有双重人格吗？" class="xl_tt xlcs_t">测你有双重人格吗？</a>
+                    </li>
+                </ul>
+            </div>
+            
+          <div class="xlyy">
+            <!--心理应用-->
+            	<ul>
+                	<li>
+                		<!--治愈系作品-->
+                        <p class="title">治愈系作品<span class="more"><a href="#">more&nbsp;>></a></span></p>
+                        <img class="xlyy_img img_an" src="img/xlyy3.jpg" width="210" height="130">
+                        <a class="xl_tt"  title="小心拦的士的时候,有人对你这样做!" href="#">小心拦的士的时候,有人对你这样做!</a>
+                    </li>
+                    
+                    <li>
+                		<!--心理短片-->
+                        <p class="title">心理短片<span class="more"><a href="#">more&nbsp;>></a></span></p>
+                        <img class="xlyy_img img_an" src="img/xlyy1.jpg" width="210" height="130">
+                   		<a class="xl_tt"  title="悲伤故事:独自为伴" href="#">悲伤故事:独自为伴</a>
+                    </li>
+                    
+                    <li>
+                		<!--心理小游戏-->
+                        <p  class="title">心理小游戏<span class="more"><a href="#">more&nbsp;>></a></span></p>
+                        <img class="xlyy_img img_an" src="img/xlyy2.jpg" width="210" height="130">
+                    	<a class="xl_tt p_an"  title="为金鱼做手术：再渺小的动物也有生存权" href="#">为金鱼做手术：再渺小的动物也有生存权</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--左边部分-->
+        <div class="ms_rt">
+        	<div class="baike">
+   				<p class="title">心理百科<span class="more"><a href="#">more&nbsp;>></a></span></p>
+                <ul id="baike_ul">
+                	<li class="baike_li">
+                    	<p><a href="#">为什么悲伤的事情反而记得</a></p>
+                    </li>
+                    <li class="baike_li">
+                    	<a href="#"><p>习近平：心理学对儿童青少年的发展非常重要</p></a>
+                    </li>
+                    <li class="baike_li">
+                    	<a href="#"><p>为什么你能瞬间知道大家看向哪里？</p></a>
+                    </li>
+                    <li class="baike_li">
+                    	<a href="#"><p>历经17年风雨，智慧行旗下大成职业培训学校开业</p></a>
+                    </li>
+                    <li class="baike_li">
+                    	<a href="#"><p>“1879计划”谈心理咨询之：热门行业如何走上标准化之路</p></a>
+                    </li>
+                    <li class="baike_li">
+                    	<a href="#"><p>游戏党福音：玩游戏可以增加脑体积</p></a>
+                    </li>
+                    <li class="baike_li">
+                    	<a href="#"><p>当男同性恋是黑人，人们的偏见消失了！</p></a>
+                	</li>
+                    <li class="baike_li">
+                    	<a href="#"><p>妈妈去哪儿：《足够好的母亲与儿童成长》八月开讲</p></a>
+                    </li>
+                    
+                    <li class="baike_li">
+                    	<a href="#"><p>译文月评：垂死病中惊坐起，感觉自己萌萌哒</p></a>
+                    </li>
+                    
+                    <li class="baike_li">
+                    	<a href="#"><p>七夕精选：今夜月色很好</p></a>
+                    </li>
+                </ul>
+    		</div>
+            
+          <div class="xlwd">
+            <!--心理问答-->
+           	 	<p class="title">心理问答<span class="more"><a href="#">more&nbsp;>></a></span></p>
+                <ul>
+                	<li onMouseMove="daText(this)">
+                    	<img src="img/da1.jpg">
+                    	<a class="xlwd_title">为什么我控制不住自己的眼泪，为什么我控制不住自己</a>
+                        <p class="xlwd_ct">我在面对上司和工作上的一些难题和做的不够好的得时候</p>
+                    </li>
+                	<li>
+                    	<img src="img/da2.jpg">
+                    	<a class="xlwd_title">活着好累</a>
+                        <p class="xlwd_ct">最近诸事不顺，好累好累。我现在大三，跟舍友关系不好，我上铺也不喜欢我。平时我是个活泼的人，现在好累，晚上睡不着，平时又对什么都提不起兴趣。</p>
+                    </li>
+                	<li>
+                    	<img src="img/da3.jpg">
+                    	<a class="xlwd_title">抑郁症患者</a>
+                        <p class="xlwd_ct">极度自卑，没有自信。研究生读了一半就自己撤了回来，拿着毕业两年的本科文凭，找不到工作。走在大街上，我都觉得捡破烂的都比我有出息</p>
+                    </li>
+                	<li>
+                    	<img  src="img/da4.jpg">
+                    	<a class="xlwd_title">大三了，却很迷茫。</a>
+                        <p class="xlwd_ct">今年大三了，可是我却迷茫不已。每天都不知道该做什么，提不起劲儿学习。</p>
+                    </li>
+                </ul>
+            </div>
+            
+          <div class="blxd">
+			<!--心理专题 -->
+            	<p class="title">拔亮心灯<span class="more"><a href="#">more&nbsp;>></a></span></p>
+                <a href="#" ><img src="./img/blxd/blxd1.jpg">
+                <a class="blxd_a" href="#" title="拨亮心灯活动进行中">拨亮心灯活动进行中</a>
+          </div>
+            
+          <div class="zxfc">
+			<!--心理专题 -->
+            	<p class="title">中心风采<span class="more"><a href="#">more&nbsp;>></a></span></p>
+                <ul>
+                	<li>
+                    	<img class="zxfc_img" src="img/zxfc/zxfc1.jpg">
+                    </li>
+                
+                </ul>
+            </div>
+        </div>
+        
+        
+    </div>
+      
+  <div class="footer" >版权归属</div>
+        
+</div>
+<script>
+window.onload = function(){
+	daText();//答字动画
+	jump();
+}
+/*=++++++++++++++++++++++++++++++++++++=*/
+/*答字旋转*/
+function daText(){
+	var e = document.getElementsByClassName("xlwd")[0].getElementsByTagName("li");
+	for(var i = 0;l=e.length,i<l;i++){
+		e[i].onmouseover = function(){
+			this.getElementsByTagName("img")[0].style.transform = "rotate(360deg)";
+		}
+		e[i].onmouseout = function(){
+			this.getElementsByTagName("img")[0].style.transform = "rotate(0deg)";
+		}
+	}
+}
+/*=++++++++++++++++++++++++++++++++++++=*/
+
+function runFunc(Class,Height,Speed){
+	var element = document.getElementsByClassName(Class);
+	var logger = 0;
+	var Top = 0;
+	var run = setInterval(function(){
+			if(logger>=Height){
+				alert(element[0].style.marginTop);
+				clearInterval(run);
+			}
+			Top -= 1;
+			element[0].style.marginTop = Top+'px';
+			logger+=1;
+	},Speed);
+}
+/*=++++++++++++++++++++++++++++++++++++=*/
+function jump(){
+	var span = document.getElementsByClassName("dot")[0].getElementsByTagName("span");
+	for(var i = 0;l=span.length,i<l;i++){
+		span[i].onmouseover = function(){
+			var title = 25*(this.title-1);
+			var picAndP = 200*(this.title-1); 
+			autoRun(picAndP,title);
+		}
+	}
+}
+function autoRun(picAndP,title,picAndPSpeed,titleSpeed){
+	var picSpeed = arguments[2]?arguments[2]:1;//默认值1
+	var tSpeed = arguments[3]?arguments[3]:5;//默认值5
+	//alert(picSpeed+titleSpeed);
+	runFunc('xlzt_longp',picAndP,picSpeed);
+	runFunc('xlzt_a',title,tSpeed);
+	runFunc('xlztImgBox',picAndP,picSpeed);
+}
+</script>
+
+</body>
+</html>
