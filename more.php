@@ -26,6 +26,7 @@
                 </a>
 						</li>
 <?php }?>
+						<p id="type" style="opacity:0"><?php echo $_GET['t']?></p>
 				</ul>
     </div>
 	<p style="font-weight:bold; font-size:16px;"><!--获取分类信息--><?php echo $datas[1];?></p>
@@ -69,6 +70,7 @@ while($rmData = @mysql_fetch_assoc($rmDatas)){
 <script src="js/adminAll.js"></script>
 <script>
 window.onload = function(){
+	var loadStatus = false;	//设置加载数据的状态
 	window.onscroll = isBottom;
 	var search  = document.getElementsByClassName("search")[0];
 	var searchP = search.getElementsByTagName("p")[0];
@@ -126,6 +128,32 @@ window.onload = function(){
 		if(getWindowHeight()+getScrollTop() == getScrollHeight()){
 			showLoading();		//显示加载图标
 			ajaxLoadMore();
+		}
+	}
+
+
+	function ajaxLoadMore(){
+		//判断加载状态，如果正在加载，就不要继续在加载数据了。
+		if(!loadStatus){
+			loadStatus = true;
+			addData();//添加数据
+		}
+	}
+
+	//添加数据
+	function addData(){
+		var moreData = ajax();
+		var parentElement = document.getElementsByClassName("moreUl")[0];
+		moreData.open("GET","lib/loadMoreData.php?startNum="+parentElement.getElementsByTagName("li").length+"&type="+document.getElementById('type').innerHTML,true);
+		moreData.send();
+		moreData.onreadystatechange = function(){
+			if(moreData.status == 200 && moreData.readyState == 4){
+				var div = document.createElement("div");
+				div.innerHTML = moreData.responseText;
+				parentElement.appendChild(div);
+				loadStatus = false;
+				showLoading(true);		//显示加载图标
+			}
 		}
 	}
 }

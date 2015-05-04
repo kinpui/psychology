@@ -152,6 +152,7 @@
 
 .xlzt{
 	height:300px;
+	padding:20px 0;
 }
 
 .xlcs{
@@ -728,17 +729,20 @@ font{
 .read{
 	width:100%;
 	height:170px;
-	margin-top:30px; 
+	margin-top:75px; 
 	text-align:center;
 	cursor: pointer;
 }
 .read p{
 	font-size:200px;
-	float:left;
 	width:150px;
 	height:130px;
 	font-family:"entypo";
 	line-height:30px;
+	position:absolute;
+}
+.read>p#xlsicon{
+	margin-left:150px;
 }
 .read p span{
 	float: left;

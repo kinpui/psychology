@@ -45,7 +45,7 @@ function more($array,$num){
  $start = $num*10;	//使用传递进来到num*一页显示到条数
  $end = $start+10;
  $articleType = (in_array($type,$array))?$type:'xlzt';
-echo  $sql = "SELECT `id`,`title`,`introduction`,`articleImg` FROM article WHERE type='{$articleType}' ORDER BY id DESC LIMIT $start,$end";
+ $sql = "SELECT `id`,`title`,`introduction`,`articleImg` FROM article WHERE type='{$articleType}' ORDER BY id DESC LIMIT $start,$end";
  $queryData = mysql_query($sql);
 	return $data = array($queryData,$types);
 }

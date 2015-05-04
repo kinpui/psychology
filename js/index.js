@@ -4,11 +4,11 @@
 /*心理专题字样*/
 function font(){
 	var colorArray = ["rgb(254,67,101)","rgb(252,157,154)","rgb(249,150,173)","rgb(200,200,169)"];
-	var fontArray = ["心","理","问","答"];
+//	var fontArray = ["心","理","问","答"];
 	var element = document.getElementsByClassName("xlztText");
 	for(var i = 0,l=element.length;i<l;i++){
 				element[i].style.background = colorArray[i];
-				element[i].getElementsByTagName("font")[0].innerHTML = fontArray[i];
+	//			element[i].getElementsByTagName("font")[0].innerHTML = fontArray[i];
 	}
 }
 function animate(o,start,alter,dur,fx) {

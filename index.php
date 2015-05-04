@@ -58,8 +58,8 @@
 	width:33.33%;
 	cursor:pointer;
 	font-size:90px;
-	line-height:4px;
-	height:15px;
+	line-height:14px;
+	height:20px;
 	transition:color 1.5s;
 	-webkit-transition:color 1.5s;
 	-o-transition:color 1.5s;
@@ -150,7 +150,7 @@ while($textData = mysql_fetch_assoc($text)){
 	while($spData = mysql_fetch_assoc($psySp)){
 ?>
                 	<li>
-                    	<p class="xlztText"><font>心</font></p>
+                    	<p class="xlztText"><font></font></p>
 											<a href="readArticle.php?id=<?php echo $spData['id']?>" class="xlzt_title" title="<?php echo $spData['title'] ?>"><?php echo $spData['title']?></a>
 											<p class="xlzt_ct" title="<?php echo $spData['introduction']?>"><?php echo $spData['introduction']?></p>
                     </li>
